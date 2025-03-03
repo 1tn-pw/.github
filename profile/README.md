@@ -7,7 +7,7 @@ Very simple API
 ## Create
 ```
 curl --request POST \
-  --url http://api.1tn.pw/v1/create \
+  --url http://api.1tn.pw/create \
   --header 'Content-Type: application/json' \
   --data '{
 	"url": "https://keloran.dev"
@@ -24,7 +24,7 @@ Returns
 ## Get
 ```
 curl --request GET \
-  --url https://api.1tn.pw/v1/yJjWqM \
+  --url https://api.1tn.pw/yJjWqM \
 ```
 Returns
 ```
